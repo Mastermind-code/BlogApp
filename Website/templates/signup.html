@@ -3,24 +3,22 @@
 
 {% block content %}
  <form method="POST">
-    <h3 align="center">LOGIN</h3>
+    <h3 align="center">SIGNUP</h3>
     <div class="form-control">
-  <label for="Email" class="form-label" id="Username" >Username</label>
-  <input type="email" class="form-control" id="username" name="username"placeholder="Enter Username">
+  <label for="Email" class="form-label" id="username" name="username">Username</label>
+        <label for="username"></label><input type="text" class="form-control" id="username" name="username" placeholder="Enter Username">
 
-    <label for="Email" class="form-label" id="Email" >Email address</label>
-  <input type="email" class="form-control" id="email" name="Email"placeholder="name@example.com">
+    <label for="Email" class="form-label" id="email" name="email">Email address</label>
+        <label for="email"></label><input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
 
-  <label for="Password" class="form-label" id="Password" >Password</label>
-  <input type="password" class="form-control" id="Password" name="Password" placeholder="*******">
+  <label for="Password" class="form-label" id="password" name="password">Password</label>
+        <label for="password"></label><input type="password" class="form-control" id="password" name="password" placeholder="*******">
 
-  <label for="Password_confirm" class="form-label" id="Password" >Confirm Password</label>
-  <input type="password" class="form-control" id="Password_confirm" name="Password_confirm" placeholder="Confirm password">
+  <label for="Password_confirm" class="form-label" id="Password_confirm" name="password_confirm">Confirm Password</label>
+        <label for="password_confirm"></label><input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="Confirm password">
         <br />
 
     <button class="btn btn-primary" type="submit">Signup</button>
 </div>
-</div>
-    </div>
-    </form>
+ </form>
 {% endblock %}
